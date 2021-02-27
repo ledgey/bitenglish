@@ -11,8 +11,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpage/templates/home.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
               <caret line="121" column="130" lean-forward="false" selection-start-line="121" selection-start-column="130" selection-end-line="121" selection-end-column="130" />
@@ -26,56 +26,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="work on laptop scene@3x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/work on laptop scene@3x.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="let_s boost rocket@3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/let_s boost rocket@3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Man_CasualBg@3x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Man_CasualBg@3x.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miro bubble@3x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/miro bubble@3x.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/templates/index.html">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="-252">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/templates/base.html">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#228#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-653">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/.ebextensions/django.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/.elasticbeanstalk/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitenglish-dev.env.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/.elasticbeanstalk/bitenglish-dev.env.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpage/static/webpage/css/style.css">
+        <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
               <caret line="126" column="7" lean-forward="false" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
@@ -102,6 +138,9 @@
       <replace>-lg-</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -110,10 +149,15 @@
         <option value="$PROJECT_DIR$/webpage/urls.py" />
         <option value="$PROJECT_DIR$/engwithchris/urls.py" />
         <option value="$PROJECT_DIR$/webpage/templates/index.html" />
-        <option value="$PROJECT_DIR$/engwithchris/settings.py" />
         <option value="$PROJECT_DIR$/webpage/static/webpage/css/style.css" />
         <option value="$PROJECT_DIR$/webpage/templates/base.html" />
         <option value="$PROJECT_DIR$/webpage/templates/home.html" />
+        <option value="$PROJECT_DIR$/engwithchris/settings.py" />
+        <option value="$PROJECT_DIR$/bitenglish/settings.py" />
+        <option value="$PROJECT_DIR$/.ebextensions/django.config" />
+        <option value="$PROJECT_DIR$/../bitenglish/bitenglish/settings.py" />
+        <option value="$PROJECT_DIR$/../bitenglish/.ebextensions/django.config" />
+        <option value="$PROJECT_DIR$/../bitenglish/.elasticbeanstalk/bitenglish-dev.env.yml" />
       </list>
     </option>
   </component>
@@ -122,6 +166,7 @@
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -142,52 +187,22 @@
           <expand>
             <path>
               <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
+              <item name="bitenglish" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
+              <item name="bitenglish" type="462c0819:PsiDirectoryNode" />
+              <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="bitenglish" type="462c0819:PsiDirectoryNode" />
+              <item name=".elasticbeanstalk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engwithchris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engwithchris" type="462c0819:PsiDirectoryNode" />
-              <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bitenglish" type="462c0819:PsiDirectoryNode" />
+              <item name="bitenglish" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,11 +218,13 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../bitenglish" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/webpage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webpage/static/webpage/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webpage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,17 +277,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33977902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33977902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -278,7 +297,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -303,6 +321,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -310,7 +331,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/manage.py</url>
+          <url>file://$PROJECT_DIR$/../bitenglish/manage.py</url>
           <line>1</line>
         </line-breakpoint>
       </breakpoints>
@@ -319,56 +340,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../venv-coffee/lib/python3.6/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv-coffee/lib/python3.6/site-packages/django/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv-coffee/lib/python3.6/site-packages/django/utils/autoreload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv-coffee/lib/python3.6/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1071" column="0" lean-forward="false" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -376,209 +347,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/models.py">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/tests.py">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/emoji ok@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/emoji ok@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/emoji pen@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/emoji pen@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/play.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/play.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/new email icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/new email icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/girl WFH scene.svg">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/girl WFH scene.svg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/girl WFH scene@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/girl WFH scene@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engwithchris/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/shape WFH scene@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/shape WFH scene@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/shape WFH scene.svg">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/shape WFH scene.svg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/macbook 3d@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/macbook 3d@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/wifi@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/wifi@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/WFH bubble@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/WFH bubble@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/wave hand icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/wave hand icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/trello icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/trello icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/trello bubble@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/trello bubble@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/slack icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/slack icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/slack bubble@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/slack bubble@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/default.jpg">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/default.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/blob work on laptop scene@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/blob work on laptop scene@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/- Marker@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/- Marker@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/scribble@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/scribble@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/miro icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/miro icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/movedQA bubble@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/movedQA bubble@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/one new message icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/one new message icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/note icon@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/note icon@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Are you ready_ hand@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/Are you ready_ hand@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/blob IT meeting scene@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/blob IT meeting scene@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/camera@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/camera@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/emoji eyes@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/emoji eyes@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/emoji graduate hat@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/emoji graduate hat@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Girl_BlueBg wifi@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/Girl_BlueBg wifi@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Man_CasualBg@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/Man_CasualBg@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/miro bubble@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/miro bubble@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Man_BlueBg@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/Man_BlueBg@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/Girl_BlueBg@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/Girl_BlueBg@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/let_s boost rocket@3.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/let_s boost rocket@3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/img/work on laptop scene@3x.png">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/img/work on laptop scene@3x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
@@ -586,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -594,7 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/static/webpage/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/static/webpage/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="126" column="7" lean-forward="false" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
@@ -602,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/../bitenglish/webpage/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="121" column="130" lean-forward="false" selection-start-line="121" selection-start-column="130" selection-end-line="121" selection-end-column="130" />
@@ -612,6 +575,74 @@
             <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#div#4;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#div#7;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/.ebextensions/django.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/bitenglish/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#228#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/.elasticbeanstalk/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bitenglish/.elasticbeanstalk/bitenglish-dev.env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

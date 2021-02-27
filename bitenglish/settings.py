@@ -25,7 +25,7 @@ SECRET_KEY = '-)mqdgvsio9b5(ee-_5y8va^y5p@ixl_)3lqk0hf)psb-h)2e0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*', 'bitenglish-dev.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'engwithchris.urls'
+ROOT_URLCONF = 'bitenglish.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'engwithchris.wsgi.application'
+WSGI_APPLICATION = 'bitenglish.wsgi.application'
 
 
 # Database
