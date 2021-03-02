@@ -6,24 +6,25 @@
 }
 
 h1 {
+  padding-top: 80px;
+  margin-bottom: 10px
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 100px;
+  color; #333333
+}
 
-padding-top: 80px;
-margin-bottom: 10px
-    font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 100px;
-color; #333333
-
+.button {
+  max-width: 80%;
 }
 
 .pricing {
-background: #FFFFFF;
-box-shadow: 0px 4px 20px rgba(47, 128, 237, 0.2);
-border-radius: 10px;
-
-
+  width: 80%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(47, 128, 237, 0.2);
+  border-radius: 10px;
 }
 
 /*
@@ -41,7 +42,7 @@ ul.list  {
     list-style: none !important;
     position:relative;
     display:block;
-    left: -15px;
+    left: -20px;
     list-style-position: outside;
     width:100%;
     padding-bottom:15px;
@@ -50,17 +51,19 @@ ul.list  {
 .list li {
     list-style-type: none !important;
     list-style: none !important;
+    list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 5px;
+    padding-left: 0px;
     margin-bottom: 10px
     font-family: Avenir;
  font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 33px;
 }
 
+/**
 .list li:before {
   position: absolute;
   top: 0;
@@ -69,6 +72,18 @@ ul.list  {
   font-family: FontAwesome;
   content: "\f058";
   color: #2270E1;
+}
+**/
+
+.list li:before {
+content:'';
+display:inline-block;
+height:18px;
+width:18px;
+background-image: url('/static/webpage/img/check.svg');
+background-size:contain;
+background-repeat:no-repeat;
+padding-left: 2em;
 }
 
 .fa-facebook {
@@ -80,39 +95,38 @@ ul.list  {
 .girl-video {
 
 position: absolute;
-width: 117px;
-height: 108px;
-left: 55%;
-top: 30%;
-z-index:1;
+  width: 117px;
+  height: 108px;
+  left: 55%;
+  top: 30%;
+  z-index:1;
 }
 
 .camera-girl {
-position: absolute;
-width: 54px;
-height: 54px;
-left: 50%;
-top: 40%;
-z-index: 2;
-
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 50%;
+  top: 40%;
+  z-index: 2;
 }
 
 .blue-girl {
-position: absolute;
-width: 129px;
-height: 129px;
-left: 0%;
-top: 75%;
-z-index:1;
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  left: 0%;
+  top: 75%;
+  z-index:1;
 }
 
 .blue-girl-wifi {
-position: absolute;
-width: 54px;
-height: 54px;
-left: 30%;
-top: 90%;
-z-index:2;
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 30%;
+  top: 90%;
+  z-index:2;
 }
 
 .blue-man {
@@ -125,135 +139,153 @@ z-index:1;
 }
 
 .casual-man {
-position: absolute;
-width: 130px;
-height: 130px;
-left: 20%;
-top: 70%;
-z-index:1;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 20%;
+  top: 70%;
+  z-index:1;
 }
 
 
-.macbook-mac
-    {
-      position:absolute;
-      top: 0px;
-      left: 13.8px;
-      z-index: 1;
-      width: 397.98px;
-      height: 397.98px;
-    }
+.macbook-mac {
+  position:absolute;
+  top: 0px;
+  left: 13.8px;
+  z-index: 1;
+  width: 397.98px;
+  height: 397.98px;
+}
 
-.macbook-marker
-    {
-      position:absolute;
-      top: 15px;
-      left: 15px;
-      z-index: 2;
-      width: 200px;
-      height: 200px;
-    }
+.macbook-marker  {
+  position:absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+}
 
-.macbook-bubble
-    {
-      position:absolute;
-      top: 135px;
-      left: 225px;
-      z-index: 3;
-      width: 229px;
-        height: 83px;
-    }
+.macbook-bubble {
+  position:absolute;
+  top: 135px;
+  left: 225px;
+  z-index: 3;
+  width: 229px;
+  height: 83px;
+}
 
-.macbook-scribble
-    {
-      position:absolute;
-      top: 182px;
-      left: 310px;
-      z-index: 4;
-      width: 148px;
-        height: 62px;
-    }
+.macbook-scribble {
+  position:absolute;
+  top: 182px;
+  left: 310px;
+  z-index: 4;
+  width: 148px;
+  height: 62px;
+}
 
-.wfh-blob
-    {
-      position:absolute;
-      top: 0px;
-      left: 57px;
-      z-index: 1;
-      height: 332px;
-      width: 467px;
-    }
-.wfh-girl
-    {
-      position:absolute;
-      top: 0px;
-      left: 57px;
-      z-index: 2;
-      height: 332px;
-      width: 439px;
-    }
+.wfh-blob {
+  position:absolute;
+  top: 0px;
+  left: 57px;
+  z-index: 1;
+  height: 332px;
+  width: 467px;
+}
 
-.wfh-bubble
-    {
-      position:absolute;
-      top: 220px;
-      left: 0px;
-      width: 236px;
-        height: 83px;
-      z-index: 3;
-    }
+.wfh-girl {
+  position:absolute;
+  top: 0px;
+  left: 57px;
+  z-index: 2;
+  height: 332px;
+  width: 439px;
+}
+
+.wfh-bubble {
+  position:absolute;
+  top: 220px;
+  left: 0px;
+  width: 236px;
+  height: 83px;
+  z-index: 3;
+}
 
 
-.meeting-blob
-    {
-      position:absolute;
-      top: 0px;
-      left: 0px;
-      z-index: 1;
-      width: 490px;
-        height: 329.99px;
-    }
+.meeting-blob {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 490px;
+  height: 329.99px;
+}
 
-.meeting-table
-    {
-      position:absolute;
-      top: 0px;
-      left: 34.9px;
-      z-index: 2;
-      width: 449.17px;
-        height: 298.28px;
-    }
+.meeting-table {
+  position:absolute;
+  top: 0px;
+  left: 34.9px;
+  z-index: 2;
+  width: 449.17px;
+  height: 298.28px;
+}
 
 .work-scene-blob {
-position:absolute;
-      top: 85px;
-      left: 65px;
-      z-index: 1;
-width: 357.84px;
-height: 422.92px;
-
+  position:absolute;
+  top: 85px;
+  left: 146px;
+  z-index: 1;
+  width: 357.84px;
+  height: 422.92px;
 }
 
 .work-scene {
-position:absolute;
-      top: 0px;
-      left: 0px;
-      z-index: 2;
-width: 375.43px;
-height: 566.32px;
+  position:absolute;
+  top: 0px;
+  left: 81px;
+  z-index: 2;
+  width: 375.43px;
+  height: 566.32px;
+}
+
+.work-scene-slack {
+  position:absolute;
+  top: 329px;
+  left: 0px;
+  z-index: 3;
+  width: 335px;
+  height: 70px;
+}
+
+.work-scene-trello {
+  position:absolute;
+  top: 506px;
+  left: 158px;
+  z-index: 3;
+  width: 203px;
+  height: 70px;
+}
+
+.work-scene-micro {
+  position:absolute;
+  top: 448px;
+  left: 320px;
+  z-index: 3;
+  width: 237px;
+  height: 70px;
 
 }
-.howwe {
 
-background: #FFFFFF;
-box-shadow: 0px 4px 20px 10px rgba(47, 128, 237, 0.1);
-border-radius: 10px;
-width: 300px;
-height: 300px;
+.howwe {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px 10px rgba(47, 128, 237, 0.1);
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
 }
 
 .nav-item {
-font-family: Avenir;
+  font-family: Avenir;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -317,32 +349,26 @@ h4 {
 }
 
 h2 {
-font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 56px;
-line-height: 140%;
-/* or 78px */
-
-text-align: center;
-letter-spacing: -0.01em;
-
-/* text */
-
-color: #333333;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+  text-align: center;
+  letter-spacing: -0.01em;
+  /* text */
+  color: #333333;
 }
 
 h5 {
 /* H5 */
-
-font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 38px;
-text-align: center;
-
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
 /* text */
-
-color: #333333;
+  color: #333333;
 }
