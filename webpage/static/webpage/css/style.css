@@ -5,23 +5,159 @@
     height: 898px;
 }
 
-h1 {
-  padding-top: 80px;
-  margin-bottom: 10px
+html, body {
+
   font-family: Avenir;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 100px;
+
+}
+
+h1 {
+  font-weight: 800;
+  padding-top: 80px;
+  margin-bottom: 10px
   color; #333333
 }
+
+h2, h4 {
+  padding-top: 80px;
+  font-weight: 800;
+  /* or 78px */
+  text-align: center;
+  color: #333333;
+}
+
+
+
+
+/* font sizes for large screens */
+@media screen and (min-width: 1024px) {
+
+  .show-div{display:none;}
+
+  p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 100px;
+  }
+
+  h2 {
+    font-size: 42px;
+    line-height: 68px;
+  }
+
+  h4 {
+    font-size: 28px;
+    line-height: 38px;
+
+  }
+
+  h5 {
+    /* H5 */
+    font-size: 28px;
+    line-height: 38px;
+
+  }
+  .list li {
+    font-size: 22px;
+    line-height: 33px;
+
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media only screen and (max-device-width: 1023px) {
+    .hide-img{display:none;}
+  p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 75px;
+  }
+
+  h2 {
+    font-size: 31.5px;
+    line-height: 51px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 34px;
+
+  }
+
+  h5 {
+    /* H5 */
+    font-size: 21px;
+    line-height: 28.5px;
+
+  }
+  .list li {
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+}
+
+
+p {
+
+  color: #333333;
+
+}
+
+
+.quote {
+
+  text-align: left;
+
+}
+
+.author {
+    text-align: right;
+
+}
+
+
+#column-content {
+display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+
 
 .button {
   max-width: 80%;
 }
 
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #2270E1;
+}
+
 .pricing {
-  width: 80%;
+  width: 40%;
+
   background: #FFFFFF;
   box-shadow: 0px 4px 20px rgba(47, 128, 237, 0.2);
   border-radius: 10px;
@@ -42,9 +178,9 @@ ul.list  {
     list-style: none !important;
     position:relative;
     display:block;
-    left: -20px;
+    left: -5px;
     list-style-position: outside;
-    width:100%;
+    width:80%;
     padding-bottom:15px;
 }
 
@@ -53,14 +189,9 @@ ul.list  {
     list-style: none !important;
     list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 0px;
+    padding-left: 0%;
     margin-bottom: 10px
-    font-family: Avenir;
- font-family: Avenir;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
+
 }
 
 /**
@@ -83,7 +214,7 @@ width:18px;
 background-image: url('/static/webpage/img/check.svg');
 background-size:contain;
 background-repeat:no-repeat;
-padding-left: 2em;
+padding-left: 1em;
 }
 
 .fa-facebook {
@@ -92,11 +223,10 @@ padding-left: 2em;
 }
 
 
+
 .girl-video {
 
 position: absolute;
-  width: 117px;
-  height: 108px;
   left: 55%;
   top: 30%;
   z-index:1;
@@ -148,131 +278,137 @@ z-index:1;
 }
 
 
-.macbook-mac {
-  position:absolute;
-  top: 0px;
-  left: 13.8px;
-  z-index: 1;
-  width: 397.98px;
-  height: 397.98px;
-}
-
-.macbook-marker  {
-  position:absolute;
-  top: 15px;
-  left: 15px;
-  z-index: 2;
-  width: 200px;
-  height: 200px;
-}
-
-.macbook-bubble {
-  position:absolute;
-  top: 135px;
-  left: 225px;
-  z-index: 3;
-  width: 229px;
-  height: 83px;
-}
-
-.macbook-scribble {
-  position:absolute;
-  top: 182px;
-  left: 310px;
-  z-index: 4;
-  width: 148px;
-  height: 62px;
-}
-
 .wfh-blob {
   position:absolute;
-  top: 0px;
-  left: 57px;
+  top: 0%;
+  left: 0%;
   z-index: 1;
-  height: 332px;
-  width: 467px;
+
 }
 
 .wfh-girl {
   position:absolute;
-  top: 0px;
-  left: 57px;
+top: 0%;
+  left: 0%;
   z-index: 2;
-  height: 332px;
-  width: 439px;
+
 }
 
 .wfh-bubble {
   position:absolute;
-  top: 220px;
-  left: 0px;
-  width: 236px;
-  height: 83px;
+top: 60%;
+  left: 0%;
+  max-width: 50%;
   z-index: 3;
 }
+
+#column-content {
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+.macbook-mac {
+  position:absolute;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+  max-height:100%
+  object-fit: cover;
+
+}
+
+.macbook-marker  {
+  position:absolute;
+  z-index: 2;
+  height: 50%;
+  top: 0%;
+  left: 0%;
+
+
+}
+
+.macbook-bubble {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+
+
+}
+
+.macbook-scribble {
+  position:absolute;
+  top: 65%;
+  left: 60%;
+  z-index: 4;
+
+
+}
+
+
 
 
 .meeting-blob {
   position:absolute;
-  top: 0px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
   z-index: 1;
-  width: 490px;
-  height: 329.99px;
 }
 
 .meeting-table {
   position:absolute;
-  top: 0px;
-  left: 34.9px;
+  top: 0%;
+  left: 0%;
   z-index: 2;
-  width: 449.17px;
-  height: 298.28px;
 }
+
 
 .work-scene-blob {
   position:absolute;
-  top: 85px;
-  left: 146px;
+  top: 15%;
+  left: 15%;
   z-index: 1;
-  width: 357.84px;
-  height: 422.92px;
+
 }
 
 .work-scene {
   position:absolute;
-  top: 0px;
-  left: 81px;
+  top: 0%;
+  left: 5%;
   z-index: 2;
-  width: 375.43px;
-  height: 566.32px;
+
 }
 
 .work-scene-slack {
   position:absolute;
-  top: 329px;
-  left: 0px;
+  top: 60%;
+  left: 0%;
   z-index: 3;
-  width: 335px;
-  height: 70px;
+
 }
 
 .work-scene-trello {
   position:absolute;
-  top: 506px;
-  left: 158px;
+  top: 80%;
+  left: 10%;
   z-index: 3;
-  width: 203px;
-  height: 70px;
+
 }
 
 .work-scene-micro {
   position:absolute;
-  top: 448px;
-  left: 320px;
+  top: 75%;
+  left: 40%;
   z-index: 3;
-  width: 237px;
-  height: 70px;
+
 
 }
 
@@ -299,37 +435,7 @@ navbar {
 }
 
 
-p {
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
-  text-align: center;
-  color: #333333;
 
-}
-
-h4 {
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 38px;
-  text-align: center;
-  color: #333333;
-
-}
-
-.quote {
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: left;
-
-}
 
 .recommender {
 
@@ -338,15 +444,7 @@ h4 {
 
 }
 
-.author {
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: right;
 
-}
 
 h2 {
   font-family: Avenir;
