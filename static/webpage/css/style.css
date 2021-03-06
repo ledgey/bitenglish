@@ -73,6 +73,7 @@ h2, h4 {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media only screen and (max-device-width: 1023px) {
     .hide-img{display:none;}
+
   p {
     font-size: 16px;
     line-height: 27px;
