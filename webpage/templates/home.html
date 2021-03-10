@@ -24,7 +24,7 @@
             <h4>English lessons by specialist English teachers dedicated to IT companies and global teams. </h4>
             <br>
             <br>
-            <button type="button" class="btn btn-primary text-center" style="width: 60%;">Get Started!</button>
+            <button type="button" class="btn btn-primary text-center" style="width: 60hw;">Get Started!</button>
 
 
         </div>
@@ -37,14 +37,15 @@
 
     </div>
     <div class="row">
-        <div class="col"></div>
-        <div class="col my-5">
-            <img src="{% static 'webpage/img/grey man.svg' %}" class="woman-gif float-left" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
 
+        <div class="col my-5 text-right">
+            <img src="{% static 'webpage/img/grey man.svg' %}" class="woman-gif float-left" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
+        </div>
+        <div class="col my-5 text-left">
             <img src="{% static 'webpage/img/woman gif.svg' %}" class="woman-gif float-right" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
 
         </div>
-        <div class="col"></div>
+
     </div>
 
 
@@ -277,7 +278,7 @@
         <div class="col-lg-2">
 
 
-              <image src="{% static 'webpage/img/man-beard.svg' %}" ></image>
+            <image src="{% static 'webpage/img/man-beard.svg' %}" ></image>
 
 
         </div>
@@ -307,44 +308,78 @@
     </div>
 
     <div class="row">
+        <div class="col my-5 px-5">
 
-        <div class="col py-5 text-center">
 
-            <div class="card pricing mx-auto" style="width: 550px;">
 
-                <div class="card-body p-5">
+            <h3>Custom Pricing</h3>
+            <br>
+            <p>Our offer is based on your personal requirements:</p>
+            <br>
+            <ul class="list">
+                <li class="list">Individual or Team Meetings</li>
+                <li class="list">Lesson duration & frequency</li>
+                <li class="list">Program: General or bespoke</li>
+            </ul>
+            <br>
+            <button type="button" class="btn btn-primary text-center" style="width: 347px;height: 56px;">Book a free call</button>
+        </div>
 
-                    <h3>Custom Pricing</h3>
-                    <br>
-                    <p>Our offer is based on your personal requirements:</p>
-                    <br>
-                    <ul class="list text-left">
-                        <li class="list">Individual or Team Meetings</li>
-                        <li class="list">Lesson duration & frequency</li>
-                        <li class="list">Program: General or bespoke</li>
-                    </ul>
-                    <br>
-                    <button type="button" class="btn btn-primary text-center" style="width: 347px;height: 56px;">Book a free call</button>
-                </div>
+
+    </div>
+
+
+
+
+
+</div>
+
+{% load crispy_forms_tags %}
+
+<div class="container-fluid " id="background">
+
+    <div class="pricing p-5 m-5">
+            <div class="form">
+                <h2 class="text-blue">Contact</h2>
+                <p class="text-center">Sumbit the form to receive a more detailed offer.</p>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            {{ form.name|as_crispy_field }}
+                            {{ form.email|as_crispy_field }}
+                            {{ form.business_name|as_crispy_field }}
+                        </div>
+                        <div class="col-md-6">
+                            {{ form.business_type|as_crispy_field }}
+                            {{ form.employee_num|as_crispy_field }}
+
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary text-center" style="width: 347px;height: 56px;">Contact Me!</button>
+
+
+                </form>
+
             </div>
-
 
         </div>
 
 
+</div>
+
+
+<div class="container-fluid px-5 bg-primary text-white ">
+    <div class="row">
+        <div class="col py-5 text-center">
+
+            <p class="text-white" >Book your strategy call today. - here goes a short explanation what a strategy call is, what to expect after such a call, how does it look like etc etc etc</pcl>
+        </div>
     </div>
 </div>
 
-    <div class="container-fluid px-5 bg-primary text-white ">
-        <div class="row">
-            <div class="col py-5 text-center">
-
-                <p class="text-white" >Book your strategy call today. - here goes a short explanation what a strategy call is, what to expect after such a call, how does it look like etc etc etc</pcl>
-            </div>
-        </div>
-    </div>
-
-    <script>
+<script>
     AOS.init();
 
     var TxtType = function(el, toRotate, period) {
@@ -404,4 +439,4 @@
         document.body.appendChild(css);
     };
 </script>
-    {% endblock %}
+{% endblock %}
