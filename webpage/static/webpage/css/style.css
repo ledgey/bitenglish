@@ -222,7 +222,7 @@ ul.list  {
     list-style: none !important;
     position:relative;
     display:block;
-    left: -5px;
+    left: -10px;
     list-style-position: outside;
     width:80%;
     padding-bottom:15px;
@@ -258,14 +258,8 @@ width:18px;
 background-image: url('/static/webpage/img/check.svg');
 background-size:contain;
 background-repeat:no-repeat;
-padding-left: 1em;
+padding-left: 2em;
 }
-
-.fa-facebook {
-  color: white;
-  background: black;
-}
-
 
 
 .girl-video {
@@ -521,3 +515,10 @@ input {
     padding: 5px 10px;
     outline: none;
 }
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+

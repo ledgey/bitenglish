@@ -105,16 +105,18 @@
 
     <div class="row my-5" id="what2" >
 
-        <div class="col-md px-0 order-md-1 order-sm-2" style="height:40vh" >
+        <div class="col-md-6  my-5 p-5 order-md-2 text-left text-div" style="height:40vh">
+            <h3>Tech-oriented</h3>
+            <p>Processes and industry jargon? We speak your language. Scrum, Agile, Kanban? We understand your approach.</p>
+        </div>
+
+        <div class="col-md-6 px-0 order-md-1" style="height:40vh" >
             <img src="{% static 'webpage/img/macbook 3d@3.png' %}" class="img-fluid macbook-mac">
             <img src="{% static 'webpage/img/- Marker@3.png' %}" class="img-fluid macbook-marker">
             <img src="{% static 'webpage/img/movedQA bubble@3x.png' %}" class="img-fluid macbook-bubble">
             <img src="{% static 'webpage/img/scribble@3.png' %}" class="img-fluid macbook-scribble">
         </div>
-        <div class="col-md order-md-2 m-5 p-5 order-sm-1 text-left text-div" style="height:40vh">
-            <h3>Tech-oriented</h3>
-            <p>Processes and industry jargon? We speak your language. Scrum, Agile, Kanban? We understand your approach.</p>
-        </div>
+
     </div>
 
 
@@ -202,18 +204,18 @@
 
     <div class="row show-div">
 
-        <div class="col p-5 mx-3 float-center">
+        <div class="col">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active howwe p-5 mx-3 ">
+                    <div class="carousel-item active howwe">
                         <h3>Comfortable</h3>
                         <p>We have individual lessons or small groups  for personal English lessons</p>
                     </div>
-                    <div class="carousel-item howwe p-5 mx-3 ">
+                    <div class="carousel-item howwe">
                         <h3>Efficient</h3>
                         <p>We use modern English using digital learning materials.</p>
                     </div>
-                    <div class="carousel-item howwe p-5 mx-3 ">
+                    <div class="carousel-item howwe">
                         <h3>Efficient</h3>
                         <p>We use modern English using digital learning materials.</p>
                     </div>
@@ -339,32 +341,32 @@
 <div class="container-fluid " id="background">
 
     <div class="pricing p-5 m-5">
-            <div class="form">
-                <h2 class="text-blue">Contact</h2>
-                <p class="text-center">Sumbit the form to receive a more detailed offer.</p>
-                <form method="post">
-                    {% csrf_token %}
-                    <div class="row">
-                        <div class="col-md-6">
-                            {{ form.name|as_crispy_field }}
-                            {{ form.email|as_crispy_field }}
-                            {{ form.business_name|as_crispy_field }}
-                        </div>
-                        <div class="col-md-6">
-                            {{ form.business_type|as_crispy_field }}
-                            {{ form.employee_num|as_crispy_field }}
-
-                        </div>
+        <div class="form">
+            <h2 class="text-blue">Contact</h2>
+            <p class="text-center">Sumbit the form to receive a more detailed offer.</p>
+            <form method="post">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-md-6">
+                        {{ form.name|as_crispy_field }}
+                        {{ form.email|as_crispy_field }}
+                        {{ form.business_name|as_crispy_field }}
+                    </div>
+                    <div class="col-md-6">
+                        {{ form.business_type|as_crispy_field }}
+                        {{ form.employee_num|as_crispy_field }}
 
                     </div>
-                    <button type="submit" class="btn btn-primary text-center" style="width: 347px;height: 56px;">Contact Me!</button>
+
+                </div>
+                <button type="submit" class="btn btn-primary text-center" style="width: 347px;height: 56px;">Contact Me!</button>
 
 
-                </form>
-
-            </div>
+            </form>
 
         </div>
+
+    </div>
 
 
 </div>
