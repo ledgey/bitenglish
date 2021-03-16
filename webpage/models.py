@@ -5,28 +5,23 @@ from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit
 
 
-TITLE_CHOICES = [
-    ('MR', 'Mr.'),
-    ('MRS', 'Mrs.'),
-    ('MS', 'Ms.'),
-]
 
 class Contact(models.Model):
     name = models.CharField(max_length=100, null=False)
-    business_name = models.CharField(max_length=100)
-    email = models.EmailField()
-    business_type = models.CharField(max_length=100, choices=TITLE_CHOICES)
-    employee_num = models.CharField(max_length=20, choices=TITLE_CHOICES)
+    email = models.EmailField(null=False)
     agree_marketing = models.BooleanField(default=False)
+    message = models.CharField(max_length=500, null=True)
 
 
 
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
-        fields = ('name', 'email', 'business_name', 'business_type', 'employee_num', 'agree_marketing')
+        fields = ('name', 'email', 'message','agree_marketing')
         labels = {
             'name': _('Name'),
+            'agree_marketing': _('I consent to be contacted'),
+            'message': _('Message'),
         }
         help_texts = {
             'name': _('Some useful help text.'),
