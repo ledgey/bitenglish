@@ -18,6 +18,9 @@ class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
         fields = ('name', 'email', 'message','agree_marketing')
+        widgets = {
+            'message': forms.Textarea(attrs={'cols': 80, 'rows': 5}),
+        }
         labels = {
             'name': _('Name'),
             'agree_marketing': _('I consent to be contacted'),
