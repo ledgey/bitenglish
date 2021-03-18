@@ -23,11 +23,13 @@ def home(request):
             contact_email = request.POST.get(
                 'email'
                 , '')
+            message = request.POST.get('message')
 
             template = get_template('contact_template.txt')
             context = {
                 'contact_name': contact_name,
-                'contact_email': contact_email
+                'contact_email': contact_email,
+                'message': message,
             }
 
             content = template.render(context)
@@ -36,13 +38,13 @@ def home(request):
                 "New contact form submission",
                 content,
                 "Your website" + '',
-                ['youremail@gmail.com'],
+                ['cledgey@gmail.com'],
                 headers={'Reply-To': contact_email}
             )
             email.send()
-            return redirect('contact')
+            return render(request, 'home.html', {'form': form_class, 'submission': True})
 
-    return render(request, 'home.html', {'form': form_class})
+    return render(request, 'home.html', {'form': form_class, 'submission': False})
 
 # class Home(View):
 #     def get(self, request, *args, **kwargs):

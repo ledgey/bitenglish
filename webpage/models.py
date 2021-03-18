@@ -27,11 +27,14 @@ class ContactForm(forms.ModelForm):
             'message': _('Message'),
         }
         help_texts = {
-            'name': _('Some useful help text.'),
+            'name': _('Enter your name.'),
+            'email': _('Enter a valid contact email address.'),
+            'message': _('Tell us a bit about your needs.'),
+
         }
         error_messages = {
             'name': {
-                'max_length': _("This writer's name is too long."),
+                'max_length': _("This name is too long."),
             },
         }
 

@@ -266,14 +266,16 @@ ul.list  {
 **/
 
 .list li:before {
-content:'';
-display:inline-block;
-height:18px;
-width:18px;
-background-image: url('/static/webpage/img/check.svg');
-background-size:contain;
-background-repeat:no-repeat;
-padding-left: 2em;
+  content:'';
+  display:inline-block;
+  height:18px;
+  width:18px;
+  background-image: url('/static/webpage/img/check.svg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding-left: 2em;
+  position: absolute;
+  left: 0;
 }
 
 .logindiv {
