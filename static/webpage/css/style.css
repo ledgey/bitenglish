@@ -236,7 +236,7 @@ ul.list  {
     list-style-type: none !important;
     list-style: none !important;
     position:relative;
-    display:block;
+    display:inline-block;
     left: -10px;
     list-style-position: outside;
     width:80%;
@@ -248,7 +248,7 @@ ul.list  {
     list-style: none !important;
     list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 0%;
+    padding-left: 1em;
     margin-bottom: 10px
 
 }
@@ -266,16 +266,15 @@ ul.list  {
 **/
 
 .list li:before {
-  content:'';
-  display:inline-block;
-  height:18px;
-  width:18px;
-  background-image: url('/static/webpage/img/check.svg');
-  background-size:contain;
-  background-repeat:no-repeat;
-  padding-left: 2em;
-  position: absolute;
-  left: 0;
+content:'';
+display:inline-block;
+height:18px;
+width:18px;
+background-image: url('/static/webpage/img/check.svg');
+background-size:contain;
+background-repeat:no-repeat;
+position: relative;
+padding-left: 2em;
 }
 
 .logindiv {
@@ -456,7 +455,7 @@ img {
 
 .work-scene-trello {
   position:absolute;
-  top: 82%;
+  top: 8%;
   left: 0%;
   z-index: 3;
 

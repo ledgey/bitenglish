@@ -236,7 +236,7 @@ ul.list  {
     list-style-type: none !important;
     list-style: none !important;
     position:relative;
-    display:block;
+    display:inline-block;
     left: -10px;
     list-style-position: outside;
     width:80%;
@@ -248,7 +248,7 @@ ul.list  {
     list-style: none !important;
     list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 0%;
+    padding-left: 1em;
     margin-bottom: 10px
 
 }
@@ -273,6 +273,7 @@ width:18px;
 background-image: url('/static/webpage/img/check.svg');
 background-size:contain;
 background-repeat:no-repeat;
+position: relative;
 padding-left: 2em;
 }
 
