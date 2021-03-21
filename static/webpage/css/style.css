@@ -4,14 +4,6 @@
 
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 3px solid green;
-}
-
 #header {
     height: 898px;
 }
@@ -240,23 +232,35 @@ display: flex;
 
 */
 
-ul.list  {
+ul.list.center  {
     list-style-type: none !important;
     list-style: none !important;
     position:relative;
     display:inline-block;
-    left: -10px;
+    left: 8em;
     list-style-position: outside;
     width:80%;
     padding-bottom:15px;
 }
+
+ul.list.normal  {
+    list-style-type: none !important;
+    list-style: none !important;
+    position:relative;
+    display:inline-block;
+    left: -4em;
+    list-style-position: outside;
+    width:80%;
+    padding-bottom:15px;
+}
+
 
 .list li {
     list-style-type: none !important;
     list-style: none !important;
     list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 5em;
+    padding-left: 1em;
     margin-bottom: 10px
 
 }
@@ -306,6 +310,13 @@ position: absolute;
   left: 30%;
   top: 40%;
   z-index: 2;
+}
+
+.asian_man {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+
 }
 
 .blue-girl {
@@ -463,7 +474,7 @@ img {
 
 .work-scene-trello {
   position:absolute;
-  top: 8%;
+  top: 80%;
   left: 0%;
   z-index: 3;
 
@@ -605,4 +616,3 @@ input {
     color: black;
   }
 }
-

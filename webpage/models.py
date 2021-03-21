@@ -26,12 +26,7 @@ class ContactForm(forms.ModelForm):
             'agree_marketing': _('I consent to be contacted'),
             'message': _('Message'),
         }
-        help_texts = {
-            'name': _('Enter your name.'),
-            'email': _('Enter a valid contact email address.'),
-            'message': _('Tell us a bit about your needs.'),
 
-        }
         error_messages = {
             'name': {
                 'max_length': _("This name is too long."),
@@ -43,5 +38,3 @@ class ContactForm(forms.ModelForm):
         self.helper = FormHelper()
         self.helper.form_method = 'post'
         self.helper.add_input(Submit('submit', 'Save person'))
-
-
