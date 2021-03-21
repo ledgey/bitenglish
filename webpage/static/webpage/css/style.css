@@ -237,7 +237,7 @@ ul.list  {
     list-style: none !important;
     position:relative;
     display:inline-block;
-    left: -10px;
+    left: 0;
     list-style-position: outside;
     width:80%;
     padding-bottom:15px;
@@ -248,7 +248,7 @@ ul.list  {
     list-style: none !important;
     list-style-image: url('/static/webpage/img/check.svg');
     position: relative;
-    padding-left: 1em;
+    padding-left: 2em;
     margin-bottom: 10px
 
 }
@@ -455,7 +455,7 @@ img {
 
 .work-scene-trello {
   position:absolute;
-  top: 8%;
+  top: 80%;
   left: 0%;
   z-index: 3;
 
