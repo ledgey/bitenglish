@@ -33,17 +33,19 @@ h2, h4 {
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* mouse over link */
-a:hover {
-  color: #333333;
+a.footer-link:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+
 }
 
 .wrap {
@@ -59,6 +61,8 @@ a:hover {
 
   color: #FFFFFF;
 }
+
+
 
 
 
@@ -294,25 +298,46 @@ padding-left: 2em;
   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #2270E1 50%, #2270E1 100%);
 }
 
+.btn {
+width: 40%;
+  height: 10%;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-.girl-video {
+.btn-chris-blue{
+  background-color:#2270E1;
+  color: #FFFFFF;
+  width: 40%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.btn-chris-blue:hover{
+  background-color:grey;
+  color: #FFFFFF;
+
+}
+
+
+
+
+.guy-video {
 
 position: absolute;
   left: 40%;
-  top: 30%;
+  top: 20%;
   z-index:1;
+  width: 159px;
+  height: 159px;
+
 }
 
-.camera-girl {
-  position: absolute;
-  width: 54px;
-  height: 54px;
-  left: 30%;
-  top: 40%;
-  z-index: 2;
-}
 
-.asian_man {
+
+.shirt-man {
   position: absolute;
   width: 129px;
   height: 129px;
@@ -321,10 +346,10 @@ position: absolute;
 
 .blue-girl {
   position: absolute;
-  width: 129px;
-  height: 129px;
-  left: 0%;
-  top: 75%;
+  width: 167px;
+  height: 150px;
+  left: 10%;
+  top: 65%;
   z-index:1;
 }
 
@@ -332,7 +357,7 @@ position: absolute;
   position: absolute;
   width: 54px;
   height: 54px;
-  left: 30%;
+  left: 35%;
   top: 90%;
   z-index:2;
 }
@@ -342,13 +367,13 @@ position: absolute;
 width: 130px;
 height: 130px;
 left: 0%;
-top: 40%;
+top: 20%;
 z-index:1;
 }
 
 .casual-man {
   position: absolute;
-  width: 130px;
+  width: 140px;
   height: 130px;
   left: 20%;
   top: 70%;
@@ -374,10 +399,37 @@ top: 10%;
 
 .wfh-bubble {
   position:absolute;
-top: 70%;
-  left: 0%;
-  max-width: 50%;
+top: 85%;
+  left: -5%;
+  max-height:  35%;
+  width:auto;
+
   z-index: 3;
+}
+
+.wifi-pricing {
+
+  position:absolute;
+  top: 10%;
+  left: 0%;
+  z-index: 1;
+
+}
+
+.message-pricing {
+  position:absolute;
+  top: 80%;
+  left: 10%;
+  z-index: 1;
+
+}
+
+.camera-pricing {
+
+  position:absolute;
+  top: 50%;
+  left: 70%;
+  z-index: 1;
 }
 
 #column-content {
@@ -417,6 +469,8 @@ img {
   top: 50%;
   left: 50%;
   z-index: 3;
+  max-height:  35%;
+  width:auto;
 
 
 }
@@ -469,6 +523,8 @@ img {
   top: 55%;
   left: 0%;
   z-index: 3;
+  max-height:  15%;
+  width:auto;
 
 }
 
@@ -477,6 +533,8 @@ img {
   top: 80%;
   left: 0%;
   z-index: 3;
+  max-height:  15%;
+  width:auto;
 
 }
 
@@ -485,6 +543,8 @@ img {
   top: 75%;
   left: 40%;
   z-index: 3;
+  max-height:  15%;
+  width:auto;
 
 
 }
