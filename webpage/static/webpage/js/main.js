@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init({disable: 'mobile'});
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;

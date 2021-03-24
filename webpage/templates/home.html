@@ -14,7 +14,7 @@
                 <p style="font-size:60px;">&#127881;</p>
                 <br>
 
-                <button type="button" class="btn btn-primary" data-dismiss="modal" style="width:60%"><a href="#contact">Got it!</a></button>
+                <button type="button" class="btn-chris-blue" data-dismiss="modal" style="width:60%"><a href="#contact">Got it!</a></button>
             </div>
         </div>
     </div>
@@ -31,15 +31,13 @@
 
 
 
-<div class="container text-center" id="header">
+<div class="container-fluid text-center" id="header" style="100vh">
 
     <div class="row">
         <div class="col-lg-2 hidden-sm">
 
-            <img src="{% static 'webpage/img/girl video.svg' %}"  class="hide-img girl-video" >
-            <img src="{% static 'webpage/img/camera@3.png' %}" class="hide-img camera-girl" >
-            <img src="{% static 'webpage/img/Girl_BlueBg@3.png' %}" class="hide-img blue-girl" >
-            <img src="{% static 'webpage/img/wifi@3.png' %}" class="hide-img blue-girl-wifi"  >
+            <img src="{% static 'webpage/img/IT guy camera.png' %}"  class="hide-img guy-video" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" id="man-beard" data-aos-duration="300">
+            <img src="{% static 'webpage/img/Girl_BlueBg wifi@3.png' %}" class="hide-img blue-girl" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" id="blue-girl-wifi" data-aos-duration="700">
         </div>
         <div class="col-lg-8">
             <h1 class="text-center">
@@ -50,18 +48,18 @@
                 <a href="" class="typewrite" data-period="1000" data-type='[ "collaboration", "client meetings", "retrospectives", "stand-ups", "kick-offs", "communication"]'><span class="wrap"></span></a><span class="blinking-cursor">|</span>
             </h1>
 
-            <br><br>
+
             <h4>Specialist English language coaches dedicated to IT companies and global teams. </h4>
             <br>
             <br>
-            <button type="button" class="btn btn-primary text-center" style="width: 40%; height: 10%; font-size: 20px; font-weight: 600;"><a href="/#contact">Get Started!</a></button>
+            <button class="button btn-chris-blue" style="width: 40%; height: 10%; font-size: 20px; font-weight: 600;" onclick="location.href='/#contact'">Get Started!</button>
 
 
         </div>
         <div class="col-lg-2 hidden-sm">
 
-            <img src="{% static 'webpage/img/Man_BlueBg@3x.png' %}" class="hide-img blue-man"  >
-            <img src="{% static 'webpage/img/Man_CasualBg@3x.png' %}" class="hide-img casual-man"  >
+            <img src="{% static 'webpage/img/Man_BlueBg@3x.png' %}" class="hide-img blue-man"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" id="blue-man-casual" data-aos-duration="600">
+            <img src="{% static 'webpage/img/girlPlay_causalBg.png' %}" class="hide-img casual-man"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" id="play-girl" data-aos-duration="1200">
 
         </div>
 
@@ -69,10 +67,10 @@
     <div class="row">
 
         <div class="col my-5">
-            <img src="{% static 'webpage/img/Man2_causalBG.png' %}" class="asian_man float-center" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
+            <img src="{% static 'webpage/img/Man2_causalBG.png' %}" class="shirt-man float-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
         </div>
         <div class="col my-5">
-            <img src="{% static 'webpage/img/woman gif.svg' %}" class="woman-gif float-center" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" >
+            <img src="{% static 'webpage/img/woman gif.svg' %}" class="woman-gif float-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="500">
 
         </div>
 
@@ -90,16 +88,16 @@
 
 
 </div>
-<div class="container-fluid p-5 bg-primary text-white recommender" id="quote1">
+<div class="container-fluid p-5 recommender" id="quote1">
     <div class="row">
-        <div class="col-md-2">
-            <image src="{% static 'webpage/img/default.jpg' %}" height="157px" width="157px"></image>
+        <div class="col-md-2 ">
+            <image class="mx-auto d-block rounded-circle" src="{% static 'webpage/img/zdj.jpg' %}" height="157px" width="157px"></image>
 
 
         </div>
         <div class="col-md-10">
-            <p class="quote">Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review - CEO of your first IT client</p>
-            <p class="author">  <strong>Jane Doe, CEO Company xyz </strong></p>
+            <p class="quote">We have been cooperating with Chris and his company for 18 months. As a global company, we need to improve our English communication skills. I can confidently say these classes have given us a lot. We see the progress both individually and in teams. As a company we highly recommend cooperation with Chris and his team. We appreciate their contribution to the development of our employees.</p>
+            <p class="author">  <strong>Magdalena Pożarycka, Team Admin, Viz Lib </strong></p>
 
         </div>
     </div>
@@ -107,7 +105,7 @@
 </div>
 
 <div class="container" id="what">
-    <div class="row" id="what_header">
+    <div class="row" id="what_header" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
             <h2> &#9999;&#65039; English language courses designed for the<mark style="color:#2270E1;background:#FFFFFF;">IT Industry</mark></h2>
@@ -116,7 +114,7 @@
     </div>
 
     <div class="row my-5 py-5 " id="what1">
-        <div class="col-lg-5 m-5 py-5 text-left mx-auto" id="column-content"  >
+        <div class="col-lg-5 m-5 py-5 text-left mx-auto" id="column-content"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
             <h3>Remote</h3>
             <p >Working from home? No problem.</p>
@@ -124,7 +122,7 @@
 
         </div>
         <div class="col-lg-2"></div>
-        <div class="col-lg-5 px-0 mx-auto d-block" style="height:35vh" >
+        <div class="col-lg-5 px-0 mx-auto d-block" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <img src="{% static 'webpage/img/girl WFH scene@3.png' %}" class="img-fluid wfh-girl">
             <img src="{% static 'webpage/img/shape WFH scene@3x.png' %}" class="img-fluid wfh-blob">
             <img src="{% static 'webpage/img/WFH bubble@3.png' %}" class="img-fluid wfh-bubble">
@@ -133,7 +131,7 @@
 
     <div class="row my-5" id="what2" >
 
-        <div class="col-lg-6  my-md-5 px-5 order-lg-2 text-left text-div mx-auto">
+        <div class="col-lg-6  my-md-5 px-5 order-lg-2 text-left text-div mx-auto" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <h3>Tech-oriented</h3>
             <p>Processes and industry jargon?</p>
             <p>We speak your language.</p>
@@ -141,7 +139,7 @@
             <p> We understand your approach.</p>
         </div>
 
-        <div class="col-lg-6 px-0 order-lg-1 mx-auto" style="height:35vh" >
+        <div class="col-lg-6 px-0 order-lg-1 mx-auto" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <img src="{% static 'webpage/img/macbook 3d@3.png' %}" class="img-fluid macbook-mac">
             <img src="{% static 'webpage/img/- Marker@3.png' %}" class="img-fluid macbook-marker">
             <img src="{% static 'webpage/img/movedQA bubble@3x.png' %}" class="img-fluid macbook-bubble">
@@ -153,7 +151,7 @@
 
 
     <div class="row" id="what3" style="margin-bottom: 80px;">
-        <div class="col-lg m-lg-5 px-5 text-left">
+        <div class="col-lg m-lg-5 px-5 text-left"data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <h3>Soft Skills</h3>
             <p>
                 English lessons to help global teams communicate effectively.
@@ -167,7 +165,7 @@
                 <li class="list">Cross-cultural skills</li>
             </ul>
         </div>
-        <div class="col-lg text-center my-5 mx-auto" style="height:35vh">
+        <div class="col-lg text-center my-5 mx-auto" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <img src="{% static 'webpage/img/blob IT meeting scene@3x.png' %}" class="img-fluid meeting-blob" >
             <img src="{% static 'webpage/img/IT meeting scene@3x.png' %}" class="img-fluid meeting-table" >
         </div>
@@ -177,14 +175,14 @@
 
 </div>
 
-<div class="container-fluid p-5 my-3 recommender">
+<div class="container-fluid p-5 recommender" id="quote2">
     <div class="row">
-        <div class="col-lg-3 mx-auto">
-            <img src="{% static 'webpage/img/image0.jpeg' %}" class="rounded-circle" alt="Cinque Terre" height="150" width="150" style="border-radius: 50%;">
+        <div class="col-md-2 text-center">
+            <image class="mx-auto d-block rounded-circle" src="{% static 'webpage/img/default.jpg' %}" height="159px" width="159px"></image>
         </div>
-        <div class="col-lg-9">
+        <div class="col-md-10">
             <p class="quote">Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review - CEO of your first IT client</p>
-            <p class="author">  Jane Doe, CEO Company xyz</p>
+            <p class="author">  <strong>Jane Doe, CEO Company xyz </strong></p>
 
         </div>
     </div>
@@ -193,14 +191,14 @@
 
 <div class="container p-5 my-3 text-center">
 
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col my-5 px-5">
             <h2>&#127891; How do we <mark style="color:#2270E1;background:#FFFFFF;">teach?</mark></h2>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col my-5 px-5">
             <p>We truly care about each student and we do our best to provide comfortable and relaxed atmosphere. There are three values that guide us.</p>
@@ -209,7 +207,7 @@
 
 
 
-    <div class="row hide-img">
+    <div class="row hide-img" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col p-5 mx-3 howwe">
             <h3 class="text-center">Comfortable</h3>
@@ -226,7 +224,7 @@
 
     </div>
 
-    <div class="row show-div">
+    <div class="row show-div" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col p-5 mx-3 float-center">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -250,13 +248,13 @@
 
     <div class="row">
 
-        <div class="col my-5 px-5">
+        <div class="col my-5 px-5" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <br>
             <p>It’s not the quantity, but the quality that matters for us.</p>
             <br>
             <p>Let’s check what we can do for you.</p>
             <br>
-            <button type="button" class="btn btn-primary text-center" style="width: 347px;height: 56px;"><a href="/#contact">Get Started!</a></button>
+            <button type="button" class="btn-chris-blue" style="width: 347px;height: 56px;" onclick="location.href='/#contact'">Get Started!</button>
         </div>
     </div>
 
@@ -266,7 +264,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col text-center">
+        <div class="col text-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <h2>&#128076; Our framework <mark style="color:#2270E1;background:#FFFFFF;">is simple</mark></h2>
 
         </div>
@@ -277,7 +275,7 @@
     <div class="row" id="how">
 
         <div class="col-md text-center" style="height:600px">
-            <img src="{% static 'webpage/img/work on laptop scene@3x.png' %}" class="img-fluid work-scene">
+            <img src="{% static 'webpage/img/work on laptop scene@3x.png' %}" class="img-fluid work-scene" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <img src="{% static 'webpage/img/blob work on laptop scene@3x.png' %}" class="img-fluid work-scene-blob" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
             <img src="{% static 'webpage/img/slack bubble@3x.png' %}" class="img-fluid work-scene-slack" data-aos="fade-up" data-aos-easing="ease-in-sine">
             <img src="{% static 'webpage/img/trello bubble@3x.png' %}" class="img-fluid work-scene-trello" data-aos="fade-up" data-aos-easing="ease-in-sine">
@@ -303,12 +301,12 @@
 
 </div>
 
-<div class="container-fluid p-5 bg-primary text-white recommender my-5" id="quote3">
+<div class="container-fluid p-5 recommender my-5" id="quote3">
     <div class="row">
         <div class="col-lg-2">
 
 
-          <img src="{% static 'webpage/img/image0.jpeg' %}" class="rounded-circle" alt="Cinque Terre" height="150" width="150" style="border-radius: 50%;">
+          <img src="{% static 'webpage/img/image0.jpeg' %}" class="rounded-circle" alt="Cinque Terre" height="150" width="150">
 
 
         </div>
@@ -322,7 +320,7 @@
 </div>
 
 <div class="container p-5 my-3 ">
-    <div class="row text-center">
+    <div class="row text-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col my-5 ">
             <h2>&#128226; We help you select<mark style="color:#2270E1;background:#FFFFFF;">the right offer</mark>for you or your team</h2>
@@ -330,8 +328,10 @@
     </div>
 
 
-    <div class="row">
-        <div class="col-md-2"></div>
+    <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
+        <div class="col-md-2">
+          <img class="img camera-pricing" src="{% static 'webpage/img/camera@3.png' %}" height="80px" width="80px">
+        </div>
         <div class="col-md-8 my-5 px-5">
 
 
@@ -349,12 +349,15 @@
             </ul>
 
         </div>
-        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <img class="img wifi-pricing" src="{% static 'webpage/img/wifi@3.png' %}" height="80px" width="80px">
+          <img class="img message-pricing" src="{% static 'webpage/img/new email icon@3x.png' %}" height="80px" width="80px">
+        </div>
 
 
     </div>
 
-    <div class="row text-center">
+    <div class="row text-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
         <div class="col my-5 px-5">
             <p>Contact us to discuss your next steps</p>
@@ -369,7 +372,7 @@
 
 {% load crispy_forms_tags %}
 
-<div class="container-fluid logindiv py-5" id="contact">
+<div class="container-fluid logindiv py-5" id="contact" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
     <div class="pricing p-5 mx-auto" style="width: 50%;">
             <div class="form">
@@ -384,7 +387,7 @@
                             {{ form.message|as_crispy_field }}
                             {{ form.agree_marketing|as_crispy_field }}
                             <div class="text-center">
-                            <button type="submit" class="btn btn-primary" style="width: 347px;height: 56px;">Send</button>
+                            <button type="submit" class="btn-chris-blue" style="width: 347px;height: 56px;">Send</button>
                             </div>
                         </div>
                     </div>
