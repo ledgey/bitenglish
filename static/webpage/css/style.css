@@ -10,20 +10,22 @@
 
 html, body {
 
-  font-family: Avenir;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
 
 }
 
 h1 {
+  font-family: 'Nunito', sans-serif;
   font-weight: 800;
   padding-top: 80px;
-  margin-bottom: 10px
-  color; #333333
+  margin-bottom: 10px;
+  color: #333333;
 }
 
 h2, h4 {
+  font-family: 'Nunito', sans-serif;
   padding-top: 80px;
   font-weight: 800;
   /* or 78px */
@@ -101,7 +103,7 @@ a.footer-link:hover {
   }
 
     h3 {
-    font-family: Avenir;
+    font-family: 'Nunito', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
@@ -558,7 +560,7 @@ img {
 }
 
 .nav-item {
-  font-family: Avenir;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -584,7 +586,7 @@ navbar {
 
 
 h2 {
-  font-family: Avenir;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
@@ -598,7 +600,7 @@ h2 {
 
 h5 {
 /* H5 */
-  font-family: Avenir;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
