@@ -10,14 +10,14 @@
 
 html, body {
 
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
 
 }
 
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 800;
   padding-top: 80px;
   margin-bottom: 10px;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2, h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-top: 80px;
   font-weight: 800;
   /* or 78px */
@@ -94,7 +94,7 @@ a.footer-link:hover {
 
   h1 {
     font-size: 60px;
-    line-height: 100px;
+    line-height: 140%;
   }
 
   h2 {
@@ -103,7 +103,7 @@ a.footer-link:hover {
   }
 
     h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
@@ -320,7 +320,12 @@ width: 40%;
 .btn-chris-blue:hover{
   background-color:grey;
   color: #FFFFFF;
+  text-decoration: none;
 
+}
+
+a button:hover {
+  text-decoration: none;
 }
 
 
@@ -560,7 +565,7 @@ img {
 }
 
 .nav-item {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -586,7 +591,7 @@ navbar {
 
 
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
@@ -600,7 +605,7 @@ h2 {
 
 h5 {
 /* H5 */
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -677,4 +682,12 @@ input {
   50% {
     color: black;
   }
+}
+
+img.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
