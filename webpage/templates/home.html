@@ -2,7 +2,7 @@
 {% load static %}
 {% block page %}
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal hide" id="thanksModal">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
 
@@ -14,20 +14,20 @@
                 <p style="font-size:60px;">&#127881;</p>
                 <br>
 
-                <button type="button" class="btn-chris-blue" data-dismiss="modal" style="width:60%" onclick="location.href='/#contact'">Got it!</button>
+                <button type="button" class="btn-chris-blue" data-dismiss="modal" onclick="location.href='/#contact'">Got it!</button>
             </div>
         </div>
     </div>
 </div>
 
+<script type="text/javascript">
+if (typeof jqXhr.success != 'undefined') {
+    $('#thanksModal').modal('show');
+} else {
+    $('#my-form').html(jqXhr);
+}
+</script>
 
-{% if submission %}
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#exampleModal").modal('show');
-        });
-    </script>
-{% endif %}
 
 
 
@@ -49,10 +49,10 @@
             </h1>
 
 
-            <h4>Specialist English language coaches dedicated to IT companies and global teams. </h4>
+            <h4 style="padding-top: 80px;">Specialist English language coaches dedicated to IT companies and global teams. </h4>
             <br>
             <br>
-            <button class="button btn-chris-blue" style="width: 40%; height: 10%; font-size: 20px; font-weight: 600;" onclick="location.href='/#contact'">Get Started!</button>
+            <button class="button btn-chris-blue" onclick="location.href='/#contact'">Get Started!</button>
 
 
         </div>
@@ -77,14 +77,13 @@
     </div>
 
 </div>
-<div class="container-fluid p-5 recommender" id="quote1">
-    <div class="row pl-5">
-        <div class="col-md-3 ">
-            <img class="mx-auto d-block rounded-circle center" src="{% static 'webpage/img/zdj.jpg' %}" height="178px" width="178px" style="vertical-align: middle;">
 
-
+<div class="container-fluid p-5 recommender" id="quote2">
+    <div class="row">
+        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+            <img class="img-fluid mx-auto d-block rounded-circle" src="{% static 'webpage/img/zdj.jpg' %}" height="159px" width="159px"></img>
         </div>
-        <div class="col-md-9 py-5">
+        <div class="col-md-9 col-sm-12 col-xs-12">
             <p class="quote">We have been cooperating with Chris and his company for 18 months. As a global company, we need to improve our English communication skills. I can confidently say these classes have given us a lot. We see the progress both individually and in teams. As a company we highly recommend cooperation with Chris and his team. We appreciate their contribution to the development of our employees.</p>
             <p class="author"><strong>Magdalena Pożarycka, Team Admin, Viz Lib </strong></p>
 
@@ -94,7 +93,7 @@
 </div>
 
 <div class="container" id="what">
-    <div class="row" id="what_header" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
+    <div class="row mt-5" id="what_header" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
         <div class="col-md-2"></div>
         <div class="col-md-8 text-center">
             <h2> &#9999;&#65039; English language courses designed for the<mark style="color:#2270E1;background:#FFFFFF;">IT Industry</mark></h2>
@@ -102,25 +101,25 @@
         <div class="col-md-2"></div>
     </div>
 
-    <div class="row my-5 py-5 " id="what1">
-        <div class="col-lg-5 m-5 py-5 text-left mx-auto" id="column-content"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+    <div class="row mt-5 " id="what1">
+        <div class="col-md-6 pt-5 text-left" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
             <h3>Remote</h3>
             <p >Working from home? No problem.</p>
             <p>Flexible online English lessons for professionals.</p>
 
         </div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-5 px-0 mx-auto d-block" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
-            <img src="{% static 'webpage/img/girl WFH scene@3.png' %}" class="img-fluid wfh-girl">
-            <img src="{% static 'webpage/img/shape WFH scene@3x.png' %}" class="img-fluid wfh-blob">
-            <img src="{% static 'webpage/img/WFH bubble@3.png' %}" class="img-fluid wfh-bubble">
+
+        <div class="col-md-6"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+            <img src="{% static 'webpage/img/wfh_scene.svg' %}" class="img-fluid">
+<!--            <img src="{% static 'webpage/img/shape WFH scene@3x.png' %}" class="img-fluid wfh-blob">-->
+<!--            <img src="{% static 'webpage/img/WFH bubble@3.png' %}" class="img-fluid wfh-bubble hide-img">-->
         </div>
     </div>
 
-    <div class="row my-5" id="what2" >
+    <div class="row" id="what2">
 
-        <div class="col-lg-6  my-md-5 px-5 order-lg-2 text-left text-div mx-auto" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+        <div class="col-md-6 pt-5 order-md-2 text-left text-div" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <h3>Tech-oriented</h3>
             <p>Processes and industry jargon?</p>
             <p>We speak your language.</p>
@@ -128,19 +127,19 @@
             <p> We understand your approach.</p>
         </div>
 
-        <div class="col-lg-6 px-0 order-lg-1 mx-auto" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
-            <img src="{% static 'webpage/img/macbook 3d@3.png' %}" class="img-fluid macbook-mac">
-            <img src="{% static 'webpage/img/- Marker@3.png' %}" class="img-fluid macbook-marker">
-            <img src="{% static 'webpage/img/movedQA bubble@3x.png' %}" class="img-fluid macbook-bubble">
-            <img src="{% static 'webpage/img/scribble@3.png' %}" class="img-fluid macbook-scribble">
+        <div class="col-md-6 order-md-1" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+            <img src="{% static 'webpage/img/macbook.svg' %}" class="img-fluid" >
+<!--            <img src="{% static 'webpage/img/- Marker@3.png' %}" class="img-fluid macbook-marker">-->
+<!--            <img src="{% static 'webpage/img/movedQA bubble@3x.png' %}" class="hide-img img-fluid macbook-bubble">-->
+<!--            <img src="{% static 'webpage/img/scribble@3.png' %}" class="hide-img img-fluid macbook-scribble">-->
         </div>
 
     </div>
 
 
 
-    <div class="row" id="what3" style="margin-bottom: 80px;">
-        <div class="col-lg m-lg-5 px-5 text-left"data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+    <div class="row mb-5" id="what3" ">
+        <div class="col-md-6 pt-5 text-left" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
             <h3>Soft Skills</h3>
             <p>
                 English lessons to help global teams communicate effectively.
@@ -154,9 +153,11 @@
                 <li class="list">Cross-cultural skills</li>
             </ul>
         </div>
-        <div class="col-lg text-center my-5 mx-auto" style="height:35vh" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
-            <img src="{% static 'webpage/img/blob IT meeting scene@3x.png' %}" class="img-fluid meeting-blob" >
-            <img src="{% static 'webpage/img/IT meeting scene@3x.png' %}" class="img-fluid meeting-table" >
+        <div class="col-md-6  text-center"  data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-linear" data-aos-duration="900">
+
+            <img src="{% static 'webpage/img/meeting.svg' %}" class="img-fluid" >
+<!--            <img src="{% static 'webpage/img/IT meeting scene@3x.png' %}" class="img-fluid meeting-table" >-->
+
         </div>
     </div>
 
@@ -166,10 +167,10 @@
 
 <div class="container-fluid p-5 recommender" id="quote2">
     <div class="row">
-        <div class="col-md-2 text-center">
-            <image class="mx-auto d-block rounded-circle" src="{% static 'webpage/img/default.jpg' %}" height="159px" width="159px"></image>
+        <div class="col-md-3 col-sm-12 col-xs-12 text-center">
+            <img class="img-fluid mx-auto d-block rounded-circle" src="{% static 'webpage/img/default.jpg' %}" height="159px" width="159px"></img>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-9 col-sm-12 col-xs-12">
             <p class="quote">Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review Here goes the most important review - CEO of your first IT client</p>
             <p class="author"><strong>Jane Doe, CEO Company xyz </strong></p>
 
@@ -178,7 +179,7 @@
 
 </div>
 
-<div class="container p-5 my-3 text-center">
+<div class="container my-3 text-center">
 
     <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
@@ -196,44 +197,56 @@
 
 
 
-    <div class="row hide-img" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
+    <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
-        <div class="col p-5 mx-3 howwe">
-            <h3 class="text-center">Comfortable</h3>
-            <p class="text-left">We have individual lessons or small groups for personal English lessons</p>
-        </div>
-        <div class="col p-5 mx-3 text-justify howwe">
-            <h3 class="text-center">Efficient</h3>
-            <p class="text-left">We use modern English using digital learning materials.</p>
-        </div>
-        <div class="col p-5 mx-3 text-justify howwe">
-            <h3 class="text-center">Customized</h3>
-            <p class="text-left">We create tools and methodology tailored to your needs.</p>
-        </div>
-
-    </div>
-
-    <div class="row show-div" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
-
-        <div class="col p-5 mx-3 float-center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active howwe p-5 mx-3 ">
-                        <h3>Comfortable</h3>
-                        <p>We have individual lessons or small groups  for personal English lessons</p>
-                    </div>
-                    <div class="carousel-item howwe p-5 mx-3 ">
-                        <h3>Efficient</h3>
-                        <p>We use modern English using digital learning materials.</p>
-                    </div>
-                    <div class="carousel-item howwe p-5 mx-3 ">
-                        <h3>Efficient</h3>
-                        <p>We use modern English using digital learning materials.</p>
-                    </div>
-                </div>
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card howwe">
+                  <div class="card-body p-5">
+                        <h3 class="text-center">Comfortable</h3>
+                        <p class="text-left">We have individual lessons or small groups for personal English lessons</p>
+                  </div>
             </div>
         </div>
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card howwe">
+                  <div class="card-body p-5">
+            <h3 class="text-center">Efficient</h3>
+            <p class="text-left">We use modern English using digital learning materials.</p>
+                  </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card howwe">
+                  <div class="card-body p-5">
+            <h3 class="text-center">Customized</h3>
+            <p class="text-left">We create tools and methodology tailored to your needs.</p>
+                  </div>
+            </div>
+        </div>
+
     </div>
+
+<!--    <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">-->
+
+<!--        <div class="col p-5 mx-3 float-center">-->
+<!--            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">-->
+<!--                <div class="carousel-inner">-->
+<!--                    <div class="carousel-item active howwe p-5 mx-3 ">-->
+<!--                        <h3>Comfortable</h3>-->
+<!--                        <p>We have individual lessons or small groups  for personal English lessons</p>-->
+<!--                    </div>-->
+<!--                    <div class="carousel-item howwe p-5 mx-3 ">-->
+<!--                        <h3>Efficient</h3>-->
+<!--                        <p>We use modern English using digital learning materials.</p>-->
+<!--                    </div>-->
+<!--                    <div class="carousel-item howwe p-5 mx-3 ">-->
+<!--                        <h3>Efficient</h3>-->
+<!--                        <p>We use modern English using digital learning materials.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <div class="row">
 
@@ -243,7 +256,8 @@
             <br>
             <p>Let’s check what we can do for you.</p>
             <br>
-            <button type="button" class="btn-chris-blue" style="width: 347px;height: 56px;" onclick="location.href='/#contact'">Get Started!</button>
+            <br>
+            <button type="button" class="btn-chris-blue" onclick="location.href='/#contact'">Get Started!</button>
         </div>
     </div>
 
@@ -290,16 +304,12 @@
 
 </div>
 
-<div class="container-fluid p-5 recommender my-5" id="quote3">
-    <div class="row pl-5">
-        <div class="col-lg-3">
-
-
-          <img src="{% static 'webpage/img/image0.jpeg' %}" class="rounded-circle center" alt="Cinque Terre" height="179" width="179">
-
-
+<div class="container-fluid p-5 recommender" id="quote3">
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 text-center">
+            <img class="img-fluid mx-auto d-block rounded-circle" src="{% static 'webpage/img/image0.jpeg' %}" height="159px" width="159px"></img>
         </div>
-        <div class="col-lg-9 py-5">
+        <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12">
             <p class="quote">I like the idea of the sprint, testing new ideas & rethinking learning methods. Some recommended apps were kind of a super discovery for me. I'm a fan of this way of learning. It was very interesting and I want more! Thanks for pushing the sprint!</p>
             <p class="author"><strong>Dorota Kowalik, Global Recruitment Manager, Nordcloud</strong></p>
 
@@ -308,10 +318,13 @@
 
 </div>
 
-<div class="container p-5 my-3 ">
+
+
+
+<div class="container">
     <div class="row text-center" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
-        <div class="col my-5 ">
+        <div class="col-lg my-5 px-5">
             <h2>&#128226; We help you select<mark style="color:#2270E1;background:#FFFFFF;">the right offer</mark>for you or your team</h2>
         </div>
     </div>
@@ -319,9 +332,9 @@
 
     <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
         <div class="col-md-2">
-          <img class="img camera-pricing" src="{% static 'webpage/img/camera@3.png' %}" height="80px" width="80px">
+          <img class="img camera-pricing hide-img" src="{% static 'webpage/img/camera@3.png' %}" height="80px" width="80px">
         </div>
-        <div class="col-md-8 my-5 px-5">
+        <div class="col-md-8 my-5 px-5" id="content">
 
 
             <div class="text-center">
@@ -331,7 +344,7 @@
             <br>
             </div>
             <!-- #TODO organise this better alignment -->
-            <ul class="list center">
+            <ul class="list mx-auto px-5" >
                 <li class="list">Individual or Company</li>
                 <li class="list">Duration and frequency</li>
                 <li class="list">Programme type</li>
@@ -339,8 +352,8 @@
 
         </div>
         <div class="col-md-2">
-          <img class="img wifi-pricing" src="{% static 'webpage/img/wifi@3.png' %}" height="80px" width="80px">
-          <img class="img message-pricing" src="{% static 'webpage/img/new email icon@3x.png' %}" height="80px" width="80px">
+          <img class="img wifi-pricing hide-img" src="{% static 'webpage/img/wifi@3.png' %}" height="80px" width="80px">
+          <img class="img message-pricing hide-img" src="{% static 'webpage/img/new email icon@3x.png' %}" height="80px" width="80px">
         </div>
 
 
@@ -363,8 +376,8 @@
 
 <div class="container-fluid logindiv py-5" id="contact" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in-linear" data-aos-duration="900">
 
-    <div class="pricing p-5 mx-auto" style="width: 50%;">
-            <div class="form">
+    <div class="pricing p-5 mx-md-5">
+            <div class="form" id="my-form">
                 <h2 class="text-blue pt-0"> &#x1F4AC; Let's <span style="color:#2270E1;">talk!</span></h2>
                 <p class="text-center">Tell us what you need!</p>
                 <form method="post">
@@ -376,7 +389,7 @@
                             {{ form.message|as_crispy_field }}
                             {{ form.agree_marketing|as_crispy_field }}
                             <div class="text-center">
-                            <button type="submit" class="btn-chris-blue" style="width: 347px;height: 56px;">Send</button>
+                            <button type="submit" class="btn-chris-blue">Send</button>
                             </div>
                         </div>
                     </div>

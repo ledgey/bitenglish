@@ -25,7 +25,7 @@ SECRET_KEY = '-)mqdgvsio9b5(ee-_5y8va^y5p@ixl_)3lqk0hf)psb-h)2e0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'bitenglish-dev.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['*', 'bitenglish-dev.us-west-2.elasticbeanstalk.com', 'bit-english.com']
 
 
 # Application definition
@@ -55,6 +55,12 @@ MIDDLEWARE = [
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+EMAIL_HOST = 'smtp.123-reg.co.uk'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'chris@bit-english.co.uk'
+EMAIL_HOST_PASSWORD = 'Craig1sgay!'
+EMAIL_USE_TLS = False
 
 ROOT_URLCONF = 'bitenglish.urls'
 

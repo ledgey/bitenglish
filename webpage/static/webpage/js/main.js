@@ -5,6 +5,8 @@ $(".nav .nav-link").on("click", function(){
    $(this).addClass("active");
 });
 
+
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;

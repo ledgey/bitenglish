@@ -10,24 +10,31 @@
 
 html, body {
 
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
 
 }
 
 h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 800;
   padding-top: 80px;
   margin-bottom: 10px;
   color: #333333;
 }
 
-h2, h4 {
-  font-family: 'Nunito', sans-serif;
+h2 {
+  font-family: 'Lato', sans-serif;
   padding-top: 80px;
   font-weight: 800;
+  /* or 78px */
+  text-align: center;
+  color: #333333;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
   /* or 78px */
   text-align: center;
   color: #333333;
@@ -94,7 +101,7 @@ a.footer-link:hover {
 
   h1 {
     font-size: 60px;
-    line-height: 100px;
+    line-height: 140%;
   }
 
   h2 {
@@ -103,7 +110,7 @@ a.footer-link:hover {
   }
 
     h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
@@ -237,24 +244,29 @@ display: flex;
 }
 
 */
-
-ul.list.center  {
-    list-style-type: none !important;
-    list-style: none !important;
-    position:relative;
-    display:inline-block;
-    left: 8em;
-    list-style-position: outside;
-    width:80%;
-    padding-bottom:15px;
+#content ul {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
 }
 
-ul.list.normal  {
+/*ul.list.center  {*/
+/*    list-style-type: none !important;*/
+/*    list-style: none !important;*/
+/*    position:relative;*/
+/*    display:inline-block;*/
+/*    left: 8em;*/
+/*    list-style-position: outside;*/
+/*    width:80%;*/
+/*    padding-bottom:15px;*/
+/*}*/
+
+ul.list  {
     list-style-type: none !important;
     list-style: none !important;
     position:relative;
-    display:inline-block;
-    left: -4em;
+    left: -2em;
     list-style-position: outside;
     width:80%;
     padding-bottom:15px;
@@ -310,17 +322,23 @@ width: 40%;
 .btn-chris-blue{
   background-color:#2270E1;
   color: #FFFFFF;
-  width: 40%;
-    height: 10%;
-    font-size: 20px;
-    font-weight: 600;
+  width: 30vw;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 600;
+
     border-radius: 5px;
     border: none;
 }
 .btn-chris-blue:hover{
   background-color:grey;
   color: #FFFFFF;
+  text-decoration: none;
 
+}
+
+a button:hover {
+  text-decoration: none;
 }
 
 
@@ -383,18 +401,20 @@ z-index:1;
 }
 
 
-.wfh-blob {
-  position:absolute;
-  top: 10%;
-  left: 0%;
-  z-index: 1;
+.blobs {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-
+  transform: translate(-50%, -50%);
 
 }
 
 .wfh-girl {
   position:absolute;
 top: 10%;
-  left: 0%;
+  left: 20%;
   z-index: 2;
 
 }
@@ -402,7 +422,7 @@ top: 10%;
 .wfh-bubble {
   position:absolute;
 top: 85%;
-  left: -5%;
+  left: 15%;
   max-height:  35%;
   width:auto;
 
@@ -451,7 +471,7 @@ img {
   z-index: 1;
   top: 0%;
   left: 0%;
-  max-height:100%
+  max-height:100%;
   object-fit: cover;
 
 }
@@ -469,9 +489,9 @@ img {
 .macbook-bubble {
   position:absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   z-index: 3;
-  max-height:  35%;
+  max-height:  30%;
   width:auto;
 
 
@@ -479,8 +499,8 @@ img {
 
 .macbook-scribble {
   position:absolute;
-  top: 65%;
-  left: 60%;
+  top: 70%;
+  left: 35%;
   z-index: 4;
 
 
@@ -552,15 +572,15 @@ img {
 }
 
 .howwe {
+
   background: #FFFFFF;
   box-shadow: 0px 4px 20px 10px rgba(47, 128, 237, 0.1);
   border-radius: 10px;
-  width: 300px;
-  height: 300px;
+
 }
 
 .nav-item {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -586,7 +606,7 @@ navbar {
 
 
 h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 56px;
@@ -600,7 +620,7 @@ h2 {
 
 h5 {
 /* H5 */
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -677,4 +697,12 @@ input {
   50% {
     color: black;
   }
+}
+
+img.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

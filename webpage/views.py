@@ -1,12 +1,14 @@
 from django.shortcuts import render
 from django.views import View
-
+import json
 # add to the top
 from .models import ContactForm, Contact
 
+
 from django.core.mail import EmailMessage
-from django.shortcuts import redirect
+from django.shortcuts import HttpResponseRedirect, HttpResponse
 from django.template.loader import get_template
+from django.urls import reverse
 
 # our view
 def home(request):
@@ -38,11 +40,12 @@ def home(request):
                 "New contact form submission",
                 content,
                 "Your website" + '',
-                ['cledgey@gmail.com'],
+                ['chris@bit-english.com'],
                 headers={'Reply-To': contact_email}
             )
             email.send()
-            return render(request, 'home.html', {'form': form_class, 'submission': True})
+            return HttpResponse(json.dumps({"success":True}), content_type="application/json")
+
 
     return render(request, 'home.html', {'form': form_class, 'submission': False})
 
